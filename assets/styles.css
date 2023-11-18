@@ -41,6 +41,7 @@ header nav ul li {
 
 footer {
     background: yellow;
+    height: 118px;
     width: 100%;
     padding: 40px 35px;
 }
@@ -61,4 +62,65 @@ footer div {
     margin: 0px 50px;
 }
 
+.city-state {
+    font-size: 20px;
+    border: 5px solid blue;
+    height: 780px;
+    width: 780px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
 
+.city-state div {
+    padding: 20px;
+    height: 680px;
+    width: 800px; 
+}
+
+.city-state div form p {
+    display: inline;
+    padding: 20px; 
+}
+
+.city-state p select {
+    width: 20%;
+    height: 25px; 
+    display: inline;
+}
+
+.company-name {
+    border: 5px solid blue;
+    height: 780px;
+    width: 600px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 9.7%;
+    right: 500px;
+}
+
+.company-name p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.company-info {
+    border: 5px solid blue;
+    height: 780px;
+    width: 480px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 9.7%;
+    right: 0px;
+}
+
+.company-info p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.company-info ul {
+    padding: 40px;
+}

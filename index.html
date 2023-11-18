@@ -8,17 +8,12 @@
     <link rel="stylesheet" href="./assets/styles.css"/>
 </head>
 
-
-
-
-
 <body>
-
-
 
     <!-- header/search bar -->
     <header>
-        <h1><a href="/">Dispatch Dig</a></h1>
+        <!-- <h1><a href="/">Dispatch Dig</a></h1> -->
+        <h1>Dispatch Dig</h1>
         <nav>
             <form>
                 <ul>
@@ -46,52 +41,74 @@
     </header>
     <!-- end header/search bar -->
 
-
-
-    <!-- drop down search by STATE section-->    
-    <section>
-        <h2>STATE</h2>
+    <!-- hero section -->
+    <section class="city-state">
+        <div>
+            <form>
+                <p>
+                    <label for="state">Choose State:</label>
+                    <select name="state" id="state">
+                        <option value="all-states">All States</option>
+                        <option value="texas">Texas</option>
+                        <option value="illinois">Illinois</option>
+                        <option value="california">California</option>
+                        <option value="georgia">Georgia</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="city">Choose City:</label>
+                    <select name="city" id="city">
+                        <option value="all-cities">All Cities</option>
+                        <option value="houston">Houston</option>
+                        <option value="chicago">Chicago</option>
+                        <option value="los-angeles">Los Angeles</option>
+                        <option value="atlanta">Atlanta</option>
+                    </select>
+                </p>
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </form>
+        </div>
     </section>
-    <!-- end drop down search by STATE section -->
 
-    <!-- drop down search by CITY section --> 
-    <section>
-        <h2>CITY</h2>
+    <section class="company-name">
+        <div>
+            <form>
+                <p>
+                    Company Name
+                </p>
+            </form>
+        </div>
     </section>
-    <!-- end drop down search by CITY section -->
-
-    <!-- company name section -->
-    <section>
-        <h2>Company Name</h2>
-    </section>
-    <!-- company name section -->
-
-
-
 
     <!-- company information section -->
     <section>
-        <h2>Company Information</h2>
-        <ul>
-            <l1>Active?</l1>
-            <li>DOT Number</li>
-            <li>MC Number</li>
-            <li>Date of Formation</li>
-            <li>Address</li>
-            <li>Telephone Number</li>
-            <li>Fax Number</li>
-            <li>Insurance Required</li>
-            <li>Insurance on File</li>
-            <li>BOC-3?</li>
-            <li>Interstate?</li>
-            <li>Intrastate?</li>
-            <li>Times out of Service</li>
-            <li>Crashes</li>
-            <li>Fatalities</li>
-            <li>Injuries</li>
-            <li>Tows</li>
-            <li>Types of Cargo Carried</li>
-        </ul>
+    <div class="company-info">
+            <p>Company Information
+            <ul>
+                <li>Active?</li>
+                <li>DOT Number</li>
+                <li>MC Number</li>
+                <li>Date of Formation</li>
+                <li>Address</li>
+                <li>Telephone Number</li>
+                <li>Fax Number</li>
+                <li>Insurance Required</li>
+                <li>Insurance on File</li>
+                <li>BOC-3?</li>
+                <li>Interstate?</li>
+                <li>Intrastate?</li>
+                <li>Times out of Service</li>
+                <li>Crashes</li>
+                <li>Fatalities</li>
+                <li>Injuries</li>
+                <li>Tows</li>
+                <li>Types of Cargo Carried</li>
+                <li>Company Rating</li>
+            </ul>
+        </p>
+        </div>
     </section>
     <!-- end company information section -->
 
@@ -100,8 +117,8 @@
 
     <!--footer company rating -->
     <footer>
-        <h1>Company Rating</h1>
-        <div>A</div>
+        <h1></h1>
+        <div></div>
     </footer>
     <!--end footer company rating -->
 
