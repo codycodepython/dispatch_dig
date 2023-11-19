@@ -10,12 +10,11 @@
 
 <body>
 
-    <!-- header/search bar -->
+<!-- header/search bar -->
     <header>
         <!-- <h1><a href="/">Dispatch Dig</a></h1> -->
         <h1>Dispatch Dig</h1>
-        <nav>
-            <form>
+            <nav>
                 <ul>
                     <li>
                         <input type="radio" name="search-type" id-="dot-yes" />
@@ -30,24 +29,23 @@
                         <label for="mc-yes">MC Number:</label> 
                     </li>
                     <li>
-                        <input type="text" placeholder="Enter Search Value" name="search-value" id="search-value" />
+                        <input type="text" placeholder="Enter Search Value" name="search-value" id="search-value" class="search-value" />
                     </li>
                     <li>
-                        <button type="submit">Search</button>
+                        <button type="submit" class="button">Search</button>
                     </li>
                 </ul>
-            </form>
-        </nav>
+            </nav>
     </header>
-    <!-- end header/search bar -->
+<!-- end header/search bar -->
 
-    <!-- hero section -->
+<!-- search by: city-state-section -->
     <section class="city-state">
         <div>
             <form>
                 <p>
                     <label for="state">Choose State:</label>
-                    <select name="state" id="state">
+                    <select name="state" id="state" class="city-state-selector">
                         <option value="all-states">All States</option>
                         <option value="texas">Texas</option>
                         <option value="illinois">Illinois</option>
@@ -57,7 +55,7 @@
                 </p>
                 <p>
                     <label for="city">Choose City:</label>
-                    <select name="city" id="city">
+                    <select name="city" id="city" class="city-state-selector">
                         <option value="all-cities">All Cities</option>
                         <option value="houston">Houston</option>
                         <option value="chicago">Chicago</option>
@@ -66,26 +64,44 @@
                     </select>
                 </p>
                 <p>
-                    <button type="submit">Submit</button>
+                    <button type="submit" class="button">Submit</button>
                 </p>
             </form>
         </div>
     </section>
+<!-- end search by: city-state-section -->
 
+<!-- company-name section -->
     <section class="company-name">
-        <div>
-            <form>
-                <p>
-                    Company Name
-                </p>
-            </form>
-        </div>
+        <p>Company Name
+            <ul>
+                <li>Lorem Ipsum Dolor LLC</li>
+                <li>Lorem Ipsum Dolor LLC</li>
+                <li>Lorem Ipsum Dolor LLC</li>
+                <li>Lorem Ipsum Dolor LLC</li>
+                <li class="selected-company">Lorem Ipsum Dolor LLC</li>
+                <li>Lorem Ipsum Dolor LLC</li>
+                <li>Lorem Ipsum Dolor LLC</li>
+                <li>Lorem Ipsum Dolor LLC</li>
+                <li>Lorem Ipsum Dolor LLC</li>
+                <li>Lorem Ipsum Dolor LLC</li>
+                <li>Lorem Ipsum Dolor LLC</li>
+                <li>Lorem Ipsum Dolor LLC</li>
+                <li>Lorem Ipsum Dolor LLC</li>
+                <li>Lorem Ipsum Dolor LLC</li>
+                <li>Lorem Ipsum Dolor LLC</li>
+                <li>Lorem Ipsum Dolor LLC</li>
+                <li>Lorem Ipsum Dolor LLC</li>
+                <li>Lorem Ipsum Dolor LLC</li>
+                <li>Lorem Ipsum Dolor LLC</li>
+            </ul>
+        </p>
     </section>
+<!--end company-name section -->
 
-    <!-- company information section -->
-    <section>
-    <div class="company-info">
-            <p>Company Information
+<!-- company-info section -->
+    <section class="company-info">
+        <p>Company Information
             <ul>
                 <li>Active?</li>
                 <li>DOT Number</li>
@@ -108,29 +124,15 @@
                 <li>Company Rating</li>
             </ul>
         </p>
-        </div>
     </section>
-    <!-- end company information section -->
+<!-- end company-info section -->
 
-
-
-
-    <!--footer company rating -->
+<!--footer company rating -->
     <footer>
         <h1></h1>
         <div></div>
     </footer>
-    <!--end footer company rating -->
-
-
-
+<!--end footer company rating -->
 
 </body>
-
-
-
-
-
-
-
 </html>
