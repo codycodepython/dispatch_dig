@@ -90,20 +90,15 @@ footer div {
 .city-state {
     font-size: 20px;
     border: 5px solid blue;
+    margin: 0 5px 0 0;
     height: 780px;
-    width: 780px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.city-state div {
+    width: 800px;
     padding: 20px;
-    height: 680px;
-    width: 800px; 
+    display: inline-block;
+    vertical-align: top;
 }
 
-.city-state div form p {
+.city-state form p {
     display: inline;
     padding: 20px; 
 }
@@ -123,13 +118,10 @@ footer div {
 
 .company-name {
     border: 5px solid blue;
+    margin: 0 5px 0 0;
     height: 780px;
     width: 600px;
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 9.7%;
-    right: 500px;
+    display: inline-block;
 }
 
 .company-name p {
@@ -154,13 +146,10 @@ footer div {
 }
 .company-info {
     border: 5px solid blue;
+    margin: 0 5px 0 0;
     height: 780px;
     width: 480px;
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 9.7%;
-    right: 0px;
+    display: inline-block;
 }
 
 .company-info p {
