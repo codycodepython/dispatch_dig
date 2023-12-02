@@ -1,7 +1,0 @@
-
-Website should be similar to cargurus.
-
-When user searches by name: Bring up all similar carrier names and their address.  The address may help them chose the correct carrier.  When they click on the correct carrier, it will pull up a new page with all of their information.
-
-Put button for search by in front of name, dot, mc.  They can only search by one
-
