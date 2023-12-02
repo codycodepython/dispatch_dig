@@ -52,8 +52,8 @@ header nav ul li {
 }
 
 header nav ul li input::placeholder {
-    opacity: 0.3;
-    color: blue;
+    opacity: .6;
+    padding: 10px;
 }
 
 input[type="radio"] {
@@ -62,9 +62,10 @@ input[type="radio"] {
 
 .search-value {
     border: 2px solid;
-    font-size: 16px;
+    font-size: 20px;
     color: black;
-    border-radius: .6rem;
+    border-radius: .5rem;
+    box-shadow: 0 .4rem .8rem #0005;
 }
 
 .button {
@@ -102,8 +103,13 @@ input[type="radio"] {
 
 .city-state-selector {
     width: 150px;
+    border: 2px solid;
     border-radius: .6rem;
+    box-shadow: 0 .4rem .8rem #0005;
+    font-size: 20px;
+    text-align: center;
 }
+
 /* end city-state --------------------------------------------------------------*/
 
 
