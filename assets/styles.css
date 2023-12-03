@@ -173,7 +173,7 @@ td img {
 
 table, th, td {
     /* border-collapse: collapse; */
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -195,7 +195,8 @@ tbody tr:hover {
 .status {
     padding: .4rem 0;
     border-radius: 2rem;
-    text-align: center;
+    width: 80px;
+    margin: 0 auto;
 }
 
 .status.active {
