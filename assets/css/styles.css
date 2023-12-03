@@ -23,7 +23,7 @@ header {
 
     background-color: #fff4;
     backdrop-filter: blur(7px);
-    box-shadow: 0 .4rem .8rem #0005;
+    /* box-shadow: 0 .4rem .8rem #0005; */
 }
 
 header h1 {
@@ -31,7 +31,7 @@ header h1 {
     font-size: 50px;
     margin: 0;
     display: inline;
-    text-shadow: 0 .4rem .8rem #0005;
+    /* text-shadow: 0 .4rem .8rem #0005; */
 }
 
 header a {
@@ -45,10 +45,10 @@ header nav {
 
 header nav ul li {
     display: inline;
-    margin: 0 20px;
+    margin:  20px;
     font-weight: lighter;
     font-size: 22px;
-    text-shadow: 0 .4rem .8rem #0005;
+    /* text-shadow: 0 .4rem .8rem #0005; */
 }
 
 header nav ul li input::placeholder {
@@ -60,12 +60,18 @@ input[type="radio"] {
     accent-color: black;
 }
 
+header nav ul li img {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+}
+
 .search-value {
     border: 2px solid;
     font-size: 20px;
     color: black;
     border-radius: .5rem;
-    box-shadow: 0 .4rem .8rem #0005;
+    /* box-shadow: 0 .4rem .8rem #0005; */
 }
 
 .button {
@@ -76,7 +82,7 @@ input[type="radio"] {
     padding: 5px 25px;
     transition: 200ms;
     box-sizing: border-box;
-    box-shadow: 0 .4rem .8rem #0005;
+    /* box-shadow: 0 .4rem .8rem #0005; */
     border: 0;
     font-size: 15px;
   }
@@ -98,14 +104,14 @@ input[type="radio"] {
 
 .city-state label {
     padding: 0 20px;
-    text-shadow: 0 .4rem .8rem #0005;
+    /* text-shadow: 0 .4rem .8rem #0005; */
 }
 
 .city-state-selector {
     width: 150px;
     border: 2px solid;
     border-radius: .6rem;
-    box-shadow: 0 .4rem .8rem #0005;
+    /* box-shadow: 0 .4rem .8rem #0005; */
     font-size: 20px;
     text-align: center;
 }
